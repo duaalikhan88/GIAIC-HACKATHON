@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf4f4; /* Soft pink */
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4a4e69; /* Pastel dark purple */
+    margin: 20px 0;
+    font-weight: lighter;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+    background-color: #fdfdfe; /* Light pastel blue */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.2em;
+    color: #9a8c98; /* Pastel purple */
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4a4e69; /* Pastel dark purple */
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c9ada7; /* Pastel brown */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    background-color: #f4f1de; /* Light pastel cream */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #9a8c98; /* Pastel purple */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a4e69; /* Darker pastel purple */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*making the resume editable*/
+    outline: none;
+}
+
+h2 {
+    color: #4a4e69; /* Pastel dark purple */
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+p {
+    margin: 5px 0;
+    color: #9a8c98; /* Pastel purple */
+}
